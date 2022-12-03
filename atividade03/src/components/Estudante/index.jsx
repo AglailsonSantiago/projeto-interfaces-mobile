@@ -1,7 +1,5 @@
 import { Pressable, Text, View } from "react-native";
-import { MaterialIcons } from "@expo/vector-icons";
-import { Ionicons } from "@expo/vector-icons";
-import { FontAwesome5 } from "@expo/vector-icons";
+import { MaterialIcons, Ionicons, FontAwesome5 } from "@expo/vector-icons";
 import EstudanteService from "../../service/EstudanteService";
 import { db } from "../../config/firebase";
 
@@ -29,7 +27,7 @@ export default function Estudante({ navigation, name, id, estudantes }) {
           <Pressable
             style={styles.editBtn}
             onPress={() => {
-              navigation.navigate("UpdateEstudantes", {
+              navigation.navigate("UpdateEstudante", {
                 id: id,
                 estudantes: estudantes,
               });
