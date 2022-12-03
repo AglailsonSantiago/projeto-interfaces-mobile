@@ -29,7 +29,7 @@ export default function ListaProfessores({ navigation }) {
           data={professores}
           renderItem={({ item }) => (
             <Professor
-              name={item.name}
+              name={item.nome}
               id={item.id}
               professores={listaProfessores}
               navigation={navigation}
@@ -42,7 +42,7 @@ export default function ListaProfessores({ navigation }) {
             style={styles.button}
             onPress={() => {
               navigation.navigate("CadastrarProfessor", {
-                listaProfessores: listaProfessores,
+                professores: listaProfessores,
               });
             }}
           >
