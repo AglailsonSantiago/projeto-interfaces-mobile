@@ -9,9 +9,9 @@ export const styles = StyleSheet.create({
   },
 
   button: {
-    width: "70%",
+    width: "60%",
     height: 60,
-    backgroundColor: "#ee7e0c",
+    backgroundColor: "#4682B4",
     color: "#ffff",
     fontWeight: "bold",
     display: "flex",

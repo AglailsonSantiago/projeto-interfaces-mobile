@@ -17,7 +17,7 @@ export default function Professor({ navigation, name, id, professores }) {
     <View style={styles.container}>
       <Pressable
         onPress={() => {
-          navigation.navigate("ProfessorDetalhes", { id: id });
+          navigation.navigate("DetalhesProfessor", { id: id });
         }}
         style={styles.containerBtn}
       >
