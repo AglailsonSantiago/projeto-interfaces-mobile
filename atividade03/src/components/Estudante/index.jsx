@@ -15,7 +15,7 @@ export default function Estudante({ navigation, name, id, estudantes }) {
     <View style={styles.container}>
       <Pressable
         onPress={() => {
-          navigation.navigate("EstudanteDetalhes", { id: id });
+          navigation.navigate("DetalhesEstudante", { id: id });
         }}
         style={styles.containerBtn}
       >

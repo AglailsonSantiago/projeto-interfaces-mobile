@@ -27,6 +27,10 @@ export const styles = StyleSheet.create({
   },
 
   icon: {
-    marginBottom: 50,
+    marginBottom: 30,
+  },
+
+  text: {
+    fontSize: 20,
   },
 });

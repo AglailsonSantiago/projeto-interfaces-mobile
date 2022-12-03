@@ -29,7 +29,7 @@ export default function Professor({ navigation, name, id, professores }) {
           <Pressable
             style={styles.editBtn}
             onPress={() => {
-              navigation.navigate("UpdateProfessores", {
+              navigation.navigate("UpdateProfessor", {
                 id: id,
                 professores: professores,
               });
